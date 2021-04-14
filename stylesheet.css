@@ -1,0 +1,159 @@
+/***** Main menu styling *****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(221, 205, 187, 0.47); /* Off White */
+}
+
+.logo {
+  max-width: 50em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 15em;
+}
+
+.bookshelf-grid {
+  height: 12em;
+  border: 0.75em solid #A7754D; /* Brown */
+  background-color: rgba(167, 117, 77, 0.68); /* Light Brown */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3.875em;
+}
+
+.bookshelf-item button {
+  background-color: #D88C9A; /* Muted Pink */
+  padding: 2em;
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
+  text-align: center;
+  vertical-align: middle;
+  width: 15em;
+  height: 4em;
+}
+
+.bookshelf-item2 button {
+  background-color: #F2D0A9; /* Champagne */
+  padding: 2em;
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
+  text-align: center;
+  vertical-align: middle;
+  width: 15em;
+  height: 4em;
+}
+
+.bookshelf-item3 button {
+  background-color: #A3BCF9; /* Alice Blueish */
+  padding: 2em;
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
+  text-align: center;
+  vertical-align: middle;
+  width: 15em;
+  height: 4em;
+}
+
+.bookshelf-item4 button {
+  background-color: #99C1B9; /* Sage Green */
+  padding: 2em;
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
+  text-align: center;
+  vertical-align: middle;
+  width: 15em;
+  height: 4em;
+}
+
+.bookshelf-item5 button {
+  background-color: #629365; /* Green */
+  padding: 2em;
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
+  text-align: center;
+  vertical-align: middle;
+  width: 15em;
+  height: 4em;
+}
+
+.bookshelf-item6 button {
+  background-color: #A192C8; /* Purple */
+  padding: 2em;
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
+  text-align: center;
+  vertical-align: middle;
+  width: 15em;
+  height: 4em;
+}
+
+.bookshelf-item7 button {
+  background-color: #FA9461; /* Orange */
+  padding: 2em;
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
+  text-align: center;
+  vertical-align: middle;
+  width: 15em;
+  height: 4em;
+}
+
+.bookshelf-grid a {
+  color: black;
+  font-family: 'Noticia Text', serif;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bookshelf-grid a:hover {
+  color: #DCCCBB; /* Off White */
+}
+
+.footer {
+  background-color: #646E78; /* Dark Blue */
+  padding: 2em;
+  text-align: center;
+}
+
+.footer a {
+  color: #DCCCBB; /* Off White */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #EAB464; /* Yellow */
+  text-decoration: none;
+}
+
+.intro p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
