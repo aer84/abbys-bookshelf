@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 3em;
   background: rgba(221, 205, 187, 0.47); /* Off White */
 }
 
@@ -20,58 +20,81 @@ body {
   height: 15em;
 }
 
-.bookshelf-grid {
-  height: 12em;
+.bookshelf {
+  display: flex;
+  flex-direction: column;
+}
+
+.shelf {
+  display:grid;
+  grid-template-rows: 14em;
+  grid-template-columns: repeat(15, 4em);
   border: 0.75em solid #A7754D; /* Brown */
   background-color: rgba(167, 117, 77, 0.68); /* Light Brown */
-  display: grid;
-  grid-template-columns: repeat(14, 40px);
-  grid-template-rows: repeat(3, minmax(12em, max-content));
-  max-width: 50em;
-  justify-content: flex-start;
-  margin-left: auto;
-  margin-right: auto;
   grid-gap: 10px;
-  grid-auto-rows: auto;
 }
 
 .bookshelf-item {
-  max-width: 48em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 12em;
+  height: 3em;
+  max-height: 3.5em;
+  padding: 0.5em;
+  background-color: LightSeaGreen;
+  border: 1px none;
+  transform: rotate(-90deg) translate(-6.5em, -4em);
+  font-family: 'Open Sans', sans-serif;
 }
 
-.bookshelf-item {
-  padding: 2em;
-  -webkit-transform: rotate(90deg) translateY(4.4em);  /* to support Safari and Android browser */
-  -ms-transform: rotate(90deg) translateY(4.4em);      /* to support IE 9 */
-  transform: rotate(90deg) translateY(4.4em);
-  text-align: center;
-  vertical-align: middle;
-  width: 14em;
-  height: 4em;
+.bookshelf-item-thick {
+  width: 12em;
+  height: 5em;
+  max-height: 3.5em;
+  padding: 0.5em;
+  background-color: LightSeaGreen;
+  border: 1px none;
+  transform: rotate(-90deg) translate(-6.25em, -4em);
+  font-family: 'Open Sans', sans-serif;
 }
 
-.bookshelf-item button {
+.pink {
   background-color: #D88C9A; /* Muted Pink */
-  padding: 1em;
 }
 
-.shelf1 {
-  grid-row: 1 / 2;
+.champagne {
+  background-color: #F2D0A9; /* Champagne */
 }
 
+.lightblue {
+  background-color: #A3BCF9; /* Alice Blueish */
+}
 
-.bookshelf-grid a {
-  color: black;
-  font-family: 'Noticia Text', serif;
+.sagegreen {
+  background-color: #99C1B9; /* Sage Green */
+}
+
+.green {
+  background-color: #629365; /* Green */
+}
+
+.purple {
+  background-color: #A192C8; /* Purple */
+}
+
+.orange {
+  background-color: #FA9461; /* Orange */
+}
+
+.shelf a {
+  color: #646E78; /* Dark Blue */
   text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
 }
 
-.bookshelf-grid a:hover {
-  color: #DCCCBB; /* Off White */
+.shelf p {
+  color: black;
+}
+
+.shelf a:hover {
+  text-decoration: underline;
 }
 
 .footer {
@@ -79,6 +102,7 @@ body {
   padding: 2em;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
 }
 
 .footer a {
@@ -95,7 +119,7 @@ body {
 
 .intro p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   margin-left: 5em;
   margin-right: 5em;
   margin-bottom: 1em;
