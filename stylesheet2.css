@@ -32,20 +32,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   grid-gap: 10px;
-  grid-auto-rows: auto;
+  grid-auto-columns: auto;
 }
 
-.bookshelf-item {
+.bookshelf-item, .bookshelf-item2, .bookshelf-item3, .bookshelf-item4, .bookshelf-item5, .bookshelf-item6, .bookshelf-item7 {
   max-width: 48em;
   margin-left: auto;
   margin-right: auto;
 }
 
-.bookshelf-item {
+.bookshelf-item, .bookshelf-item2, .bookshelf-item3, .bookshelf-item4, .bookshelf-item5, .bookshelf-item6, .bookshelf-item7, .bookshelf-item8, .bookshelf-item9, .bookshelf-item10, .bookshelf-item11, .bookshelf-item12, .bookshelf-item13, .bookshelf-item14 {
   padding: 2em;
-  -webkit-transform: rotate(90deg) translateY(4.4em);  /* to support Safari and Android browser */
-  -ms-transform: rotate(90deg) translateY(4.4em);      /* to support IE 9 */
-  transform: rotate(90deg) translateY(4.4em);
+  -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);      /* to support IE 9 */
+  transform: rotate(90deg);
   text-align: center;
   vertical-align: middle;
   width: 14em;
@@ -61,6 +61,94 @@ body {
   grid-row: 1 / 2;
 }
 
+.bookshelf-item2 button {
+  background-color: #F2D0A9; /* Champagne */
+  padding: 1em;
+  grid-column: 2 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item3 button {
+  background-color: #A3BCF9; /* Alice Blueish */
+  padding: 1em;
+  grid-column: 3 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item4 button {
+  background-color: #99C1B9; /* Sage Green */
+  padding: 1em;
+  grid-column: 4 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item5 button {
+  background-color: #629365; /* Green */
+  padding: 1em;
+  grid-column: 5 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item6 button {
+  background-color: #A192C8; /* Purple */
+  padding: 1em;
+  grid-column: 6 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item7 button {
+  background-color: #FA9461; /* Orange */
+  padding: 1em;
+  grid-column: 7 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item8 button {
+  background-color: #D88C9A; /* Muted Pink */
+  grid-column: 8 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item9 button {
+  background-color: #F2D0A9; /* Champagne */
+  padding: 1em;
+  grid-column: 9 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item10 button {
+  background-color: #A3BCF9; /* Alice Blueish */
+  grid-column: 10 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item11 button {
+  background-color: #99C1B9; /* Sage Green */
+  padding: 1em;
+  grid-column: 11 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item12 button {
+  background-color: #629365; /* Green */
+  padding: 1em;
+  grid-column: 12 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item13 button {
+  background-color: #A192C8; /* Purple */
+  padding: 1em;
+  grid-column: 13 / 14;
+  grid-row: 1 / 3;
+}
+
+.bookshelf-item14 button {
+  background-color: #FA9461; /* Orange */
+  padding: 0.5em;
+  grid-column: 14 / 14;
+  grid-row: 1 / 3;
+}
 
 .bookshelf-grid a {
   color: black;
