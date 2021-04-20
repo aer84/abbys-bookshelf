@@ -11,6 +11,18 @@ body {
   background: rgba(221, 205, 187, 0.47); /* Off White */
 }
 
+html {
+  background: url(images/paper2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html.firstpage {
+  background: rgba(221, 205, 187, 0.47); /* Off White */
+}
+
 .logo {
   max-width: 50em;
   display: block;
@@ -28,7 +40,7 @@ body {
 .shelf {
   display:grid;
   grid-template-rows: 14em;
-  grid-template-columns: repeat(15, 4em);
+  grid-template-columns: repeat(14, 4em);
   border: 0.75em solid #A7754D; /* Brown */
   background-color: rgba(167, 117, 77, 0.68); /* Light Brown */
   grid-gap: 10px;
@@ -85,17 +97,17 @@ body {
 }
 
 .shelf a {
-  color: #646E78; /* Dark Blue */
+  color: #41474e; /* Darker Blue */
   text-decoration: none;
 }
 
 .shelf p {
-  color: black;
+  color: #2B2D2F; /* Charcoal Gray */
 }
 
 .shelf a:hover {
   text-decoration: underline;
-  color: black;
+  color: #41474e; /* Darker Blue */
 }
 
 .footer {
@@ -209,4 +221,17 @@ q {
 
 .awards p {
   margin: 2em 1em 1em 26em;
+}
+
+.warning {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* When the browser is at least 1150px and above */
+@media screen and (min-width: 1150px) {
+  .warning {
+    display: none;
+  }
 }
